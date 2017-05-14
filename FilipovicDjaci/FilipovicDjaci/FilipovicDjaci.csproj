@@ -44,14 +44,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="djak.cs" />
+    <Compile Include="FrmPocetna.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmPocetna.Designer.cs">
+      <DependentUpon>FrmPocetna.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUpis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpis.Designer.cs">
+      <DependentUpon>FrmUpis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Osoba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPocetna.resx">
+      <DependentUpon>FrmPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpis.resx">
+      <DependentUpon>FrmUpis.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
